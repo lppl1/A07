@@ -11,7 +11,7 @@
 
 h1, h2, h3, p, ul {
 	padding-top: .5em;
-	padding-bottom: .53m;
+	padding-bottom: .5em;
 }
 
 ul {
@@ -48,10 +48,12 @@ header {
 	background-image: linear-gradient(30deg, #f6bb73 0%, white 30%, white 65%, #f6bb73 100%);
 	& h2 {
 		font-size: 175%;
+		padding-bottom: 0;
 	}
 	& h3 {
 		font-size: 130%;
 		font-style: italic;
+		padding-bottom: 1em;
 	}
 	& img {
 		float: left;
@@ -65,7 +67,9 @@ main {
 	padding: 0 1em 1em 1em;
 	& h1 {
 		border-top: 2px solid var(--accent-color);
-		border-bottom: 2px solid var(--acent-color);
+		border-bottom: 2px solid var(--accent-color);
+		border-left: 2px solid var(--accent-color);
+		border-right: 2px solid var(--accent-color);
 		border-radius: 15px;
 		padding-left: .5em;
 	}
@@ -74,7 +78,7 @@ main {
 		padding: 0 2em .5em 2em;
 	}
 	& img {
-		border: 4px double var(--acent-color);
+		border: 4px double var(--accent-color);
 		border-radius: 10px;
 	}
 }
