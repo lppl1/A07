@@ -71,6 +71,10 @@ main {
 		font-style: italic;
 		padding: 0 2em .5em 2em;
 	}
+	& img {
+		border: 4px double var(--acent-color);
+		border-radius: 10px;
+	}
 }
 
 /* the styles for the footer */
