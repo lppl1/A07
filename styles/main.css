@@ -66,6 +66,8 @@ main {
 	& h1 {
 		border-top: 2px solid var(--accent-color);
 		border-bottom: 2px solid var(--acent-color);
+		border-radius: 15px;
+		padding-left: .5em;
 	}
 	& blockquote {
 		font-style: italic;
